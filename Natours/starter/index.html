@@ -13,6 +13,26 @@
     <title>Natours | Exciting tours for adventurous people</title>
 </head>
 <body>
+<div class="navigation">
+    <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+    <label for="navi-toggle" class="navigation__button">
+        <span class="navigation__icon">&nbsp;</span>
+    </label>
+
+    <div class="navigation__background">&nbsp;</div>
+
+    <nav class="navigation__nav">
+        <ul class="navigation__list">
+            <li class="navigation__item"><a href="#" class="navigation__link"><span>01</span>About Natours</a></li>
+            <li class="navigation__item"><a href="#" class="navigation__link"><span>02</span>Your benefits</a></li>
+            <li class="navigation__item"><a href="#" class="navigation__link"><span>03</span>Popular tours</a></li>
+            <li class="navigation__item"><a href="#" class="navigation__link"><span>04</span>Stories</a></li>
+            <li class="navigation__item"><a href="#" class="navigation__link"><span>05</span>Book now</a></li>
+        </ul>
+    </nav>
+</div>
+
+
 <header class="header">
     <div class="header__logo-box">
         <img src="./img/logo-white.png" alt="Logo" class="header__logo">
@@ -22,7 +42,7 @@
             <span class="heading-primary--main">Outdoors</span>
             <span class="heading-primary--sub">is where life happens</span>
         </h1>
-        <a href="#" class="btn btn--white btn--animated">Discover our tours</a>
+        <a href="#section-tours" class="btn btn--white btn--animated">Discover our tours</a>
     </div>
 
 </header>
@@ -311,7 +331,7 @@
 </main>
 <footer class="footer">
     <div class="footer__logo-box">
-        <img src="img/logo-green-small-2x.png" alt="Full logo" class="footer__logo">
+        <img src="img/logo-green-2x.png" alt="Full logo" class="footer__logo">
     </div>
     <div class="row">
         <div class="col-1-of-2">
@@ -328,7 +348,7 @@
             </div>
         </div>
         <div class="col-1-of-2">
-            <p class="footer_copyright">
+            <p class="footer__copyright">
                 Bult my <a href="#" class="footer__link">Marinko Tomic</a> for his online course.
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, quis, vel? Autem corporis in odit
                 pariatur perspiciatis praesentium.
@@ -340,41 +360,28 @@
     </div>
 </footer>
 
-<!--section-- class="grid-test">
-<div class="row">
-<div class="col-1-of-2">col-1-of-2</div>
-<div class="col-1-of-2">col-1-of-2</div>
+<div class="popup" id="popup">
+    <div class="popup__content">
+        <div class="popup__left">
+            <img src="img/nat-8.jpg" alt="Tour photo" class="popup__img">
+            <img src="img/nat-9.jpg" alt="Tour photo" class="popup__img">
+        </div>
+        <div class="popup__right">
+            <a href="#section-tours" class="popup__close">&times;</a>
+            <h2 class="heading-secondary u-margin-bottom-small">Start booking now</h2>
+            <h3 class="heading-tertiary u-margin-bottom-small">Important &ndash; Please read these terms before booking</h3>
+            <p class="popup__text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab ad adipisci alias amet, debitis deserunt
+                dolor error eum hic illum inventore ipsum iste itaque, molestias pariatur perspiciatis provident quae
+                repellat?
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusantium assumenda beatae cum delectus
+                deserunt eligendi eos fugit iste magnam minus natus nesciunt officia omnis, quod, sequi tenetur totam
+                ullam!
+            </p>
+            <a href="#" class="btn btn--green">Book now</a>
+        </div>
+    </div>
 </div>
-
-<div class="row">
-<div class="col-1-of-3">col-1-of-3</div>
-<div class="col-1-of-3">col-1-of-3</div>
-<div class="col-1-of-3">col-1-of-3</div>
-</div>
-
-<div class="row">
-<div class="col-1-of-3">col-1-of-3</div>
-<div class="col-2-of-3">col-2-of-3</div>
-</div>
-
-<div class="row">
-<div class="col-1-of-4">col-1-of-4</div>
-<div class="col-1-of-4">col-1-of-4</div>
-<div class="col-1-of-4">col-1-of-4</div>
-<div class="col-1-of-4">col-1-of-4</div>
-</div>
-
-<div class="row">
-<div class="col-1-of-4">col-1-of-4</div>
-<div class="col-1-of-4">col-1-of-4</div>
-<div class="col-2-of-4">col-2-of-4</div>
-</div>
-
-<div class="row">
-<div class="col-1-of-4">col-1-of-4</div>
-<div class="col-3-of-4">col-3-of-4</div>
-</div>
-</section-->
 
 
 </body>
